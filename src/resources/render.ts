@@ -1,8 +1,10 @@
 import axios from 'axios';
+import { API_URL } from '../config';
 
 export default class Render {
   private readonly apiKey: string;
-  private url = 'https://api.veed.io/api/renders';
+  private url = `${API_URL}/renders`;
+
 
   constructor(apiKey: string) {
     this.apiKey = apiKey;

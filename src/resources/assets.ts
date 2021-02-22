@@ -3,8 +3,7 @@ import { API_URL } from '../config';
 
 export default class Assets {
   private readonly apiKey: string;
-  private API_DOMAIN: string = API_URL[prompt.env.NODE_ENV]
-  private url = `${this.API_DOMAIN}/assets`;
+  private url = `${API_URL}/assets`;
 
   constructor(apiKey: string) {
     this.apiKey = apiKey;
