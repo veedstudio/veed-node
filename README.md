@@ -62,9 +62,9 @@ veed.assets
   * get
   * list
 * render
- * create
- * get
- * list
+   * create
+   * get
+   * list
 
 ### Contributing
 
