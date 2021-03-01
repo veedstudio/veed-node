@@ -2,7 +2,7 @@
 
 The Node Library for the [Veed](https://veed.io/api) API. 🔥
 
-### Installationa
+### Installation
 
 For Yarn
 ```
